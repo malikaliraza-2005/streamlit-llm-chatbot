@@ -1,0 +1,11 @@
+.stApp{
+    background-color: black;
+}
+.title{
+    color: gray !important;
+    font-family: 'Inter SemiBold', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
