@@ -11,7 +11,8 @@ local_css("style.css")
 
 
 model = "llama3.2:1b" 
-st.markdown("<h1 class='title'>Llama-3.2 VEX</h1>", unsafe_allow_html=True) 
+st.markdown("<h1 class='title'>AI Chatbot 🤖</h1>", unsafe_allow_html=True) 
+st.markdown("<h1 class='description'>Powered by Ollama (LLaMA 3)</h1>", unsafe_allow_html=True) 
 
 if "messages" not in st.session_state:     
     st.session_state.messages = []    
